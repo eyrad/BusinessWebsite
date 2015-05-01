@@ -1,0 +1,40 @@
+ul.nav {
+	list-style: none;
+	height: 50px;
+	padding: 30px;
+}
+
+ul.nav li {
+	display: inline;
+	list-style-type: none;
+	width: 150px;
+	height: 15px;
+	padding: 10px;
+	text-align: center;
+	margin: 30px;
+}
+
+ul.nav a {
+	text-align: center;
+	padding: 20px;
+	width: 150px;
+	font-size: 20px;
+}
+
+ul.nav li:hover{
+	color: black;
+}	
+
+
+a {
+	text-decoration:none;
+}
+
+.container {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-image: url("WorkSpace1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
