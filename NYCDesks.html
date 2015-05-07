@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+   <head>
+   	 <link rel="stylesheet" type="text/css" href="CssReset.css">
+     <link rel="stylesheet" type="text/css" href="WorkspaceSite.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <title>NYC Desks</title>
+   </head>
+
+   <body>
+     <div class="container">
+     	<div class="hero">
+   		  <nav>
+   			<ul class="nav">
+   				<li><a class="nav-link" href="NYCDesks.html">NYC DESKS</a></li>
+   				<li><a class="nav-link" href="AboutOurSpace.html">About Our Space</a></li>
+   				<li><a class="nav-link" href="#">Pricing</a></li>
+   				<li><a class="nav-link" href="#">Contact</a></li>
+   			</ul>
+   		  </nav>
+
+        <div class="work">
+           <p>WORK SMART</p>
+        </div>   
+        <div class="address">  
+           <p>49 Wycoff Avenue | Brooklyn, NY 11237</p>
+        </div> 
+
+        <div class="wrapper">
+            <a class="button-link" href="#">GET IN ON THE ACTION</a>
+        </div>  
+
+
+   		  <!-- <img src="WorkSpace1.jpg" name="slide"/> -->
+
+
+          <script type="text/javascript">
+
+
+          // var image1 = new Image()
+          // $(".hero").css({"background-image": url('WorkSpace1.jpg'});
+          // var image2 = new Image()	
+          // $(".hero").css({"background-image": url('WorkSpace2.jpg'});
+          // var image3 = new Image()	
+          // $(".hero").css({"background-image": url('WorkSpace3.jpg'});	
+
+
+          	var image1 = "url('WorkSpace1.jpg')";
+          	var image2 = "url('WorkSpace2.jpg')";
+          	var image3 = "url('WorkSpace3.jpg')";
+
+  			var array = ["url('WorkSpace1.jpg')", "url('WorkSpace2.jpg')", "url('WorkSpace3.jpg')"];
+
+           var step = 0;
+
+           function slideit() {
+          	 // document.images.slide.background-image = eval("image"+step+".hero");
+          	 $(".container").css("background-image", array[step]);
+          	 if (step<3) step++;
+          	 else step=0;
+
+          	 setTimeout("slideit()", 2500);	
+           }
+
+           window.onload = slideit();
+          </script> 
+        </div>   
+     </div>  
+
+     <div class="join">
+      <h2>Join the NYC Desks</h2>
+      <p>We are living in the hustle economy. Every day, more and more people are committing to living free from the nine-to-five. Office shares and coworking spaces give you the freedom to work like a professional on your schedule and budget in this brave new world.
+
+      Brooklyn Desks is an independently-owned office share and coworking hub just outside the Jefferson L stop in Bushwick, New York. Our 9,000 square-foot space offers both communal work areas and private offices, and is decked out with everything you need to make your business work. We put down roots in this town because it's full of independent creatives and professionals of all stripes, and we're here to help you navigate the hustle on your own terms.</p>
+    </div>
+
+   </body>
+</html>   		
+     
