@@ -38,7 +38,9 @@ body{
 
 h1 {
   text-align:center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 25px;
 }
 
 h3 {
@@ -64,5 +66,24 @@ h2 {
   padding-right: 25px;
   margin-bottom: 10px;
   margin-top: 40px;
+}
+
+.footer {
+  clear: both;
+  position: relative; 
+  height: 150px;
+  background-color: grey;
+  margin-top: 20px;
+  color: white;
+}
+
+.footer p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
