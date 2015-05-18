@@ -1,0 +1,150 @@
+<!Doctype html>
+<html>
+   <head>
+   	 <link rel="stylesheet" type="text/css" href="CssReset.css">
+     <link rel="stylesheet" type="text/css" href="WorkspaceSite.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <title>Contact Us</title>
+   </head>
+
+   <body>
+     <div class="container">
+     	<div class="hero">
+   		  <nav>
+   			<ul class="nav">
+   				<li><a class="nav-link" href="NYCDesks.html">NYC DESKS</a></li>
+   				<li><a class="nav-link" href="AboutOurSpace.html">About Our Space</a></li>
+   				<li><a class="nav-link" href="Prices.html">Pricing</a></li>
+   				<li><a class="nav-link" href="Contact.html">Contact</a></li>
+   			</ul>
+   		  </nav>
+
+
+        <!--<div class="work">
+           <p>WORK SMART</p>
+        </div>   
+        <div class="address">  
+           <p>49 Wycoff Avenue | Brooklyn, NY 11237</p>
+        </div> 
+
+        <div class="wrapper">
+            <a class="button-link" href="#">GET IN ON THE ACTION</a>
+        </div>  
+
+
+   		  <!-- <img src="WorkSpace1.jpg" name="slide"/> -->
+
+
+          <script type="text/javascript">
+
+
+          // var image1 = new Image()
+          // $(".hero").css({"background-image": url('WorkSpace1.jpg'});
+          // var image2 = new Image()	
+          // $(".hero").css({"background-image": url('WorkSpace2.jpg'});
+          // var image3 = new Image()	
+          // $(".hero").css({"background-image": url('WorkSpace3.jpg'});	
+
+
+          	var image1 = "url('WorkSpace1.jpg')";
+          	var image2 = "url('WorkSpace2.jpg')";
+          	var image3 = "url('WorkSpace3.jpg')";
+
+  			var array = ["url('WorkSpace1.jpg')", "url('WorkSpace2.jpg')", "url('WorkSpace3.jpg')"];
+
+           var step = 0;
+
+           function slideit() {
+          	 // document.images.slide.background-image = eval("image"+step+".hero");
+          	 $(".container").css("background-image", array[step]);
+          	 if (step<3) step++;
+          	 else step=0;
+
+          	 setTimeout("slideit()", 2500);	
+           }
+
+           window.onload = slideit();
+          </script> 
+        </div>   
+     </div>  
+     	<h1>Contact NYC Desks</h1>
+     	<p>(718) 366-3865<br>
+			info@nycdesks.com<br>
+			NYC Desks<br>
+			49 Wyckoff Avenue<br>
+			Brooklyn, NY 11237<br>
+			First Floor</p>
+     <div class="join">
+      <h2>Join the NYC Desks</h2>
+      <!--<p>We are living in the hustle economy. Every day, more and more people are committing to living free from the nine-to-five. Office shares and coworking spaces give you the freedom to work like a professional on your schedule and budget in this brave new world.
+
+      Brooklyn Desks is an independently-owned office share and coworking hub just outside the Jefferson L stop in Bushwick, New York. Our 9,000 square-foot space offers both communal work areas and private offices, and is decked out with everything you need to make your business work. We put down roots in this town because it's full of independent creatives and professionals of all stripes, and we're here to help you navigate the hustle on your own terms.</p>
+
+       <!--dropdown space type-->
+       <form action="http://www.example.com/profile.php">
+   		  	<p>Which Workspace are you interested in?</p>
+   		  	<select name="workspaces">
+   		  		<option value="Shared">Shared</option>
+   		  		<option value="Desk Space">Desk Space</option>
+   		  		<option value="Private Office">Private Office</option>
+   		  	</select>
+   		  </form>
+   		 <!--Contact Form Field-->
+   		 <form action="http://www.example.com/Have More Questions?.php" method="get">
+   		 	<fieldset>
+   		 		<legend>
+   		 			Your Information:
+   		 		</legend>
+   		 		<label>
+   		 			Name:
+   		 			<input type="text" name="name" size="30" maxlength="100">
+   		 		</label>
+   		 		<br />
+   		 		<label>
+   		 			Email:
+   		 			<input type="email" name"email" size="30" maxlength="100">
+   		 		</label>
+   		 		<br />
+   		 		<label>
+   		 			Phone:
+   		 			<input type="phone" name"phone" size="30" maxlength="15">
+   		 		</label>
+   		 		<br />
+   		 	</fieldset>
+   		 	<fieldset>
+   		 		<legend>
+   		 			How did you hear about us:
+   		 		</legend>
+   		 		<p>
+   		 			<label for="hear-about">
+   		 					Please choose one
+   		 			</label>
+   		 			<select name="referrer" id="hear-about">
+   		 				<option value="google">Google</option>
+   		 				<option value="friend">Friend</option>
+   		 				<option value="advertisement">Advertisement</option>
+   		 				<option value="other">Other</option>
+   		 			</select>
+   		 			</p>
+   		 		<p>
+   		 			<label for="Tellus">
+   		 				Tell us about your business!
+   		 			</label>
+   		 			<br />
+   		 			<textarea rows="20" cols="100" id="Tellus">
+   		 			</textarea>
+   		 		</p>
+   		 		<label>
+   		 			<input type="checkbox" name="subscribe" checked="checked" />
+   		 			Keep me up to date on events happening at NYC DESKS
+   		 		</label>
+   		 		<br />
+   		 		<input type="submit" value="Submit" />
+   		 	</fieldset>
+   		 </form>
+
+    </div>
+
+   </body>
+</html>   		
+     
